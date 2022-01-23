@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 		<meta charset="utf-8">
+  <title>CUPPA</title>
+  <link rel="stylesheet" type="text/css" href="D:/brand website/CSS/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="D:/brand website/CSS/styles.css">
+ 
+<link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Kanit:ital,wght@1,300&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+</head>
+<body >
+<nav class="navigation">
+		<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Menu</a></li>
+        <li><a href="#">Best of the Day</a></li>
+        <li><a href="#">About Us</a></li>
+        <div class="search">
+        	<input type="text" name="search" id="search" placeholder="  Search this website">
+        </div>
+    </ul>
+        
+	</nav>
+	<div class="parallax">
+		
+		<h1 class="centre">CUPPA</br><div>Always Awake<div></h1>
+
+		</div>
+
+		<div class="container">
+				<div class="col-lg6"><img src="D:/brand website/Images/coffee1.jpg" class="wid left"><div class="text1">Latte<button type="button" class="btn btn-primary" ">Explore Now</button></div></div>
+				<div class="col-lg6" ><img src="D:/brand website/Images/cofee2.jpg" class="wid right"><div class="text2">Espresso<button type="button" class="btn btn-primary">Explore Now</button></div></div>
+				
+		</div>
+		<footer>
+			<div class="footer-class ">
+				<div class="col-lg4">Visit Us</br>(303) 666-4084
+                  1446 Adams Pl Louisville,</br> Colorado(CO), 80027</div>
+			    <div class="col-lg4">Customer Service</br>Frequently Asked Question</div>
+			    <div class="col-lg4">Mail Us</br>CuppaOfficial@gmail.com</div></br>
+
+			</div>
+		</footer>
+	
+ <script src="D:/brand website/Js/jquery-2.1.4.min.js"></script>
+ <script src="D:/brand website/Js/script.js"></script>
+ <script>
+ 	$(window).scroll(function(){
+ 		$(".centre").css("opacity",1 - $(window).scrollTop()/150)
+ 	});
+ 	$(window).scroll(function(){
+ 		$(".navigation").css("opacity",0 + $(window).scrollTop()/150)
+ 	});
+
+ </script>
+</body>
+</html>
