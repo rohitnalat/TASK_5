@@ -26,7 +26,7 @@ body{
 	font-family:'The Nautigal', cursive;
 }
 .parallax {
-	background :  linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("D:/brand website/pexels-burst-374885.jpg")
+	background :  linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("C:/brand website/Images/pexels-burst-374885.jpg")
 	no-repeat fixed 100%  ;
 	background-size:100%;
 	padding-top:10%;
